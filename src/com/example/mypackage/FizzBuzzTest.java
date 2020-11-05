@@ -21,14 +21,16 @@ class FizzBuzzTest {
     @org.junit.jupiter.api.Test
     public void outOfRange()
     {
-//        Assert.assertEquals("Out of Range",101);
-        Assert.assertEquals("Out of Range",142);
+        Assert.assertEquals("Out of Range",fizzBuzz.StringFor(101));
+        Assert.assertEquals("Out of Range",fizzBuzz.StringFor(142));
     }
     @org.junit.jupiter.api.Test
     public void fizzbuzz_for_multiples_of_3_and_5()
     {
         Assert.assertEquals("FizzBuzz", fizzBuzz.StringFor(15));
         Assert.assertEquals("FizzBuzz",fizzBuzz.StringFor(60));
+        Assert.assertEquals("FizzBuzz",fizzBuzz.StringFor(45));
+        Assert.assertEquals("Buzz",fizzBuzz.StringFor(20));
     }
     @org.junit.jupiter.api.Test
     public void fizz_for_multiples_of_3()
@@ -48,5 +50,6 @@ class FizzBuzzTest {
     {
         Assert.assertEquals("11",fizzBuzz.StringFor(11));
         Assert.assertEquals("16",fizzBuzz.StringFor(16));
+        Assert.assertEquals("62",fizzBuzz.StringFor(62));
     }
 }

@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec8296d-e6b8-4ad1-a622-8a275c3e327b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FizzBuzz/com/example/mypackage/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FizzBuzz/com/example/mypackage/FizzBuzz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FizzBuzz/com/example/mypackage/FizzBuzzTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FizzBuzz/com/example/mypackage/FizzBuzzTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzzTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
