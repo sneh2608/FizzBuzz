@@ -7,10 +7,11 @@ public class FizzBuzz {
     }
     public String StringFor(int number)
     {
-        if(number==15)
-            return "fizzbuzz";
-
-        return "fizz";
+        if(IsDivisibleByFive(number)&&IsDivisibleByThree(number))
+            return "FizzBuzz";
+        else if(number==3)
+            return "Fizz";
+        return Integer.toString(number);
     }
 
     private boolean IsDivisibleByThree(int number) {

@@ -24,4 +24,9 @@ class FizzBuzzTest {
         Assert.assertEquals("FizzBuzz", fizzBuzz.StringFor(15));
         Assert.assertEquals("FizzBuzz",fizzBuzz.StringFor(60));
     }
+    @org.junit.jupiter.api.Test
+    public void fizz_for_multiples_of_3()
+    {
+        Assert.assertEquals("Fizz",fizzBuzz.StringFor(3));
+    }
 }
