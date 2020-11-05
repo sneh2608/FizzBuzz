@@ -28,5 +28,6 @@ class FizzBuzzTest {
     public void fizz_for_multiples_of_3()
     {
         Assert.assertEquals("Fizz",fizzBuzz.StringFor(3));
+        Assert.assertEquals("Fizz",fizzBuzz.StringFor(6));
     }
 }
