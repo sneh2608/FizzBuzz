@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bec8296d-e6b8-4ad1-a622-8a275c3e327b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzzTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="bec8296d-e6b8-4ad1-a622-8a275c3e327b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +30,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -122,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1604556442051</updated>
     </task>
+    <task id="LOCAL-00001" summary="corrected multiples of 3 and 5">
+      <created>1604561956072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604561956072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,5 +141,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="corrected multiples of 3 and 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected multiples of 3 and 5" />
   </component>
 </project>
