@@ -7,13 +7,21 @@ public class FizzBuzz {
     }
     public String StringFor(int number)
     {
-        if(IsDivisibleByFive(number)&&IsDivisibleByThree(number))
+        if(checkRange(number))
+            return "Out of Range";
+        else if(IsDivisibleByFive(number)&&IsDivisibleByThree(number))
             return "FizzBuzz";
         else if(IsDivisibleByThree(number))
             return "Fizz";
         else if(IsDivisibleByFive(number))
-            return "Bizz";
+            return "Buzz";
         return Integer.toString(number);
+    }
+
+    private boolean checkRange(int number) {
+        if(number<1||number>100)
+            return true;
+        return false;
     }
 
     private boolean IsDivisibleByThree(int number) {
