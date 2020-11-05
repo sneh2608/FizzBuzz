@@ -34,5 +34,8 @@ class FizzBuzzTest {
     public void fizz_for_multiples_of_5()
     {
         Assert.assertEquals("Buzz",fizzBuzz.StringFor(5));
+        Assert.assertEquals("Buzz",fizzBuzz.StringFor(30));
+        Assert.assertEquals("Buzz",fizzBuzz.StringFor(70));
     }
+    
 }

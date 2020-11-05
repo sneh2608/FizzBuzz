@@ -11,6 +11,8 @@ public class FizzBuzz {
             return "FizzBuzz";
         else if(IsDivisibleByThree(number))
             return "Fizz";
+        else if(IsDivisibleByFive(number))
+            return "Bizz";
         return Integer.toString(number);
     }
 
