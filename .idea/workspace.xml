@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bec8296d-e6b8-4ad1-a622-8a275c3e327b" name="Default Changelist" comment="" />
+    <list default="true" id="bec8296d-e6b8-4ad1-a622-8a275c3e327b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzzTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +18,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jrJnMCQxzIv30ywHC93f0hHs2N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -49,13 +56,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.getNumber">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.fizzbuzz_for_multiples_of_3_and_5">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.mypackage.FizzBuzzTest" />
       <module name="FizzBuzz" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.fizzbuzz_for_multiples_of_3_and_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mypackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mypackage" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mypackage.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="fizzbuzz_for_multiples_of_3_and_5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,9 +102,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.FizzBuzzTest.getNumber" />
+      <item itemvalue="JUnit.FizzBuzzTest.fizzbuzz_for_multiples_of_3_and_5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest.fizzbuzz_for_multiples_of_3_and_5" />
         <item itemvalue="JUnit.FizzBuzzTest.getNumber" />
       </list>
     </recent_temporary>
@@ -98,5 +123,16 @@
       <updated>1604556442051</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

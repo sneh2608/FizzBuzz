@@ -18,9 +18,10 @@ class FizzBuzzTest {
         String num=fizzBuzz.getNumber(number);
         Assert.assertEquals("1",num);
     }
+    @org.junit.jupiter.api.Test
     public void fizzbuzz_for_multiples_of_3_and_5()
     {
         Assert.assertEquals("FizzBuzz", fizzBuzz.StringFor(15));
-
+        Assert.assertEquals("FizzBuzz",fizzBuzz.StringFor(60));
     }
 }
