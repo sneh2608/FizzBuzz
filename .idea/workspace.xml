@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec8296d-e6b8-4ad1-a622-8a275c3e327b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FizzBuzz/com/example/mypackage/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FizzBuzz/com/example/mypackage/FizzBuzz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FizzBuzz/com/example/mypackage/FizzBuzzTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FizzBuzz/com/example/mypackage/FizzBuzzTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/mypackage/FizzBuzzTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +57,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.fizz_for_multiples_of_3">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.mypackage.FizzBuzzTest" />
       <module name="FizzBuzz" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mypackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mypackage" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mypackage.FizzBuzzTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,9 +136,11 @@
       <item itemvalue="JUnit.FizzBuzzTest.getNumber" />
       <item itemvalue="JUnit.FizzBuzzTest.fizzbuzz_for_multiples_of_3_and_5" />
       <item itemvalue="JUnit.FizzBuzzTest.fizz_for_multiples_of_3" />
+      <item itemvalue="JUnit.FizzBuzzTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.FizzBuzzTest.fizz_for_multiples_of_3" />
         <item itemvalue="JUnit.FizzBuzzTest.fizzbuzz_for_multiples_of_3_and_5" />
         <item itemvalue="JUnit.FizzBuzzTest.getNumber" />

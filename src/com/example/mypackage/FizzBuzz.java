@@ -9,7 +9,7 @@ public class FizzBuzz {
     {
         if(IsDivisibleByFive(number)&&IsDivisibleByThree(number))
             return "FizzBuzz";
-        else if(number==3)
+        else if(IsDivisibleByThree(number))
             return "Fizz";
         return Integer.toString(number);
     }
